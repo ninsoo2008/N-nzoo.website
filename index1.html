@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N!nzoo | Web </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Cherry+Bomb+One&family=Lilita+One&family=Permanent+Marker&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Winky Sans", sans-serif;
+      
+    }
+  
+   body{
+     background-image: url("https://i.postimg.cc/1349ZRJ5/dark-wavy-colors-background-23-2148403785.jpg");
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     
+   }
+    header{
+      padding: 40px;
+      background-color: rgba(204, 0, 204, 0.1);
+      border-bottom: 2px solid white;
+      
+      
+    }
+   
+      .Logo{
+        color: #cc00cc;
+        position: fixed;
+        width: 100%;
+        
+      }
+      .Logo a{
+        font-size: 60px;
+        position: fixed;
+        margin-left: 650px;
+        margin-top: -39px;
+        font-weight: bold;
+        text-shadow: 0 0 10px #cc00cc,0 0 20px #cc00cc,0 0 40px #cc00cc;
+        
+      }
+      .Logo span{
+        font-size: 60px;
+        position: fixed;
+        margin-left: 700px;
+        margin-top: -40px;
+        color: white;
+        
+      }
+      .Logo span{
+        font-weight: bold;
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+        
+        
+      }
+      .About {
+        position: fixed;
+        width: 60%;
+        margin-top: 250px;
+        margin-left: 30px;
+        
+      }
+      .About h1{
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 0 0 10px white,0 0 20px white,0 0 40px white;
+        
+      }
+      .About span{
+        color: #cc00cc;
+        font-size: 45px;
+        font-weight: bold;
+        text-shadow: 0 0 10px #cc00cc,0 0 20px #cc00cc,0 0 40px #cc00cc;
+      }
+      .About p{
+        font-size: 35px;
+        color: #00BFFF;
+        font-weight: bold;
+        text-shadow: 0 0 10px #00BFFF,0 0 20px #00BFFF,0 0 40px #00BFFF;
+        
+      }
+      .square {
+    width: 980px;
+    border-radius: 15px;
+    height: 450px;
+    background-color: rgba(204, 0, 204, 0.1);
+    position: fixed;
+    top: 53%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+ 
+ .insta{
+   position: fixed;
+   margin-top: 650px;
+   margin-left: 1280px;
+   font-size: 50px;
+ 
+   
+ }
+ .dis{
+   position: fixed;
+   margin-top: 653px;
+   margin-left: 1196px;
+   font-size: 50px;
+   
+ }
+ .wts{
+   position: fixed;
+   margin-top: 650px;
+   margin-left: 1130px;
+   font-size: 50px;
+ }
+ .insta a{
+   color: #cc00cc;
+   
+ }
+ .dis a{
+   color: #2E64FE;
+   
+ }
+ .wts a{
+   color: green;
+  
+ }
+ .wts a i:hover{
+   color: white;
+   transition: 0.3s;
+ }
+ .insta a i:hover{
+   color: white;
+   transition: 0.3s;
+ }
+ .dis a i:hover{
+   color: white;
+   transition: 0.3s;
+ }
+   .image{
+     position: fixed;
+     margin-left: 980px;
+     margin-top: 90px;
+   }
+   .skills{
+     position: fixed;
+     color: white;
+     font-size: 50px;
+     margin-left: 1170px;
+     margin-top: 190px;
+     font-weight: bold;
+     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+   }
+   .icon{
+     position: fixed;
+     font-size: 45px;
+     margin-top: 209px;
+     margin-left: 10px;
+     color: white;
+     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+   }
+   .ico{
+     position: fixed;
+     font-size: 45px;
+     margin-top: 277px;
+     margin-left: 8px;
+     color: #cc00cc;
+     text-shadow: 0 0 20px #cc00cc, 0 0 30px #cc00cc, 0 0 60px #cc00cc;
+   }
+   .ab{
+     position: fixed;
+     font-size: 45px;
+     margin-top: 332px;
+     margin-left: 5px;
+     color: #00BFFF;
+     text-shadow: 0 0 20px #00BFFF, 0 0 30px #00BFFF, 0 0 60px #00BFFF;
+     
+   }
+   .morba3{
+     width: 300px;
+    border-radius: 15px;
+    height: 100px;
+    background-color: rgba(204, 0, 204, 0.1);
+    position: fixed;
+    top: 43%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+     
+   }
+   .ln{
+     position: fixed;
+     font-size: 40px;
+     margin-top: 300px;
+     margin-left: 1183px;
+     font-weight: bold;
+     color: #FF8000;
+     text-shadow: 0 0 10px  #FF8000, 0 0 20px  #FF8000, 0 0 40px  #FF8000;
+     
+   }
+   .lng{
+     position: fixed;
+     font-size: 40px;
+     margin-top: 430px;
+     margin-left: 1197px;
+     font-weight: bold;
+     color: #2EFEF7;
+     text-shadow: 0 0 10px #2EFEF7, 0 0 20px #2EFEF7, 0 0 40px #2EFEF7;
+     
+   }
+   .mor{
+     width: 300px;
+    border-radius: 15px;
+    height: 100px;
+  background-color: rgba(204, 0, 204, 0.1);
+    position: fixed;
+    top: 540px;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+   }
+   .my{
+     position: fixed;
+     margin-left: 1164px;
+     margin-top: 570px;
+     
+   }
+   .my a{
+     font-size: 40px;
+     font-weight: bold;
+     color: #99ccff;
+     text-shadow: 0 0 10px #99ccff, 0 0 20px #99ccff, 0 0 40px #99ccff;
+   }
+   .mr{
+     width: 300px;
+    border-radius: 15px;
+    height: 190px;
+    background-color: rgba(204, 0, 204, 0.1);
+    position: fixed;
+    top: 735px;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+   }
+   .copy{
+     background: purple;
+     border-top: 2px solid white;
+     position: fixed;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 90px;
+     margin-top: 785px;
+     
+     
+   }
+   .copy a{
+     color: #c8c6c6;
+     font-size: 40px;
+     margin-left: 600px;
+   }
+   .prg{
+     margin: 0;
+     padding: 0;
+     
+   }
+   .prg a{
+     position: fixed;
+     background: rgba(204, 0, 204, 0.1);
+     padding: 15px 30px;
+     border-radius: 30px;
+     text-decoration: none;
+     font-size: 40px;
+     margin-top: 670px;
+     margin-left: 380px;
+     color: #cc00cc;
+     font-weight: bold;
+   }
+   .prg a:hover{
+     color: pink;
+     transition: 0.3s;
+   }
+   @media (max-width: 600px){
+   
+   
+   .Logo a{
+     margin-left: 70px;
+   }
+   .Logo span{
+     margin-left: 120px;
+   }
+   .About{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+   }
+  .About h1{
+    font-size: 28px;
+    margin-left: 25px;
+  }
+  .About span{
+    font-size: 28px;
+    margin-left: 25px;
+  }
+   .About p{
+     font-size: 15px;
+     height: 40%;
+     width: 100%;
+     margin-left: 60px;
+   }
+   .icon{
+     font-size: 25px;
+     margin-top: 21px;
+     margin-left: 95px;
+   }
+   .ico{
+     font-size: 25px;
+     margin-top: 59px;
+     margin-left: 68px;
+   }
+   .ab {
+     font-size: 25px;
+     margin-top: 89px;
+     margin-left: 65px;
+   }
+   .square {
+  margin-left: 900px;
+   }
+   .mr{
+   margin-top: -320px;
+   margin-left: -115px;
+   width: 100px;
+   height: 50px;
+   }
+   .mor{
+     margin-top: -60px;
+   margin-left: -115px;
+   width: 100px;
+   height: 60px;
+   }
+   .morba3{
+     margin-left: 900px;
+   }
+   
+   .skills{
+     margin-left: 160px;
+     margin-top: 313px;
+     font-size: 30px;
+     
+   }
+   .ln{
+     margin-top: 390px;
+     margin-left: 163px;
+     font-size: 28px;
+   }
+   .lng{
+     margin-top: 365px;
+     margin-left: 175px;
+     font-size: 28px;
+     
+   }
+   .my{
+     margin-left: 148px;
+     margin-top: 429px;
+     
+   }
+   .my a{
+     font-size: 28px;
+   }
+   .dis{
+     margin-left: 175px;
+     margin-top: 470px;
+     font-size: 28px;
+   }
+   .insta{
+     margin-left: 225px;
+     margin-top: 470px;
+     font-size: 28px;
+   }
+   .wts {
+     margin-left: 135px;
+     margin-top: 470px;
+     font-size: 28px;
+   }
+   .copy {
+     margin-right: 900px;
+     margin-top: 580px;
+     position: fixed;
+     height: 90px;
+   }
+   .copy a{
+     margin-left: 120px;
+     font-size: 18px;
+   }
+   .prg a{
+     margin-left: 140px;
+     margin-top: 510px;
+     padding: 10px 20px;
+     font-size: 18px;
+   }
+}
+   
+    </style>
+    
+    
+    
+    
+    
+    </head>
+    
+    <body>
+      <header>
+        <nav>
+     <div class="Logo">
+       <a> N! </a> <span> nzoo </span>
+       
+     </div>
+     
+     <div class="About">
+       <h1>Im N!nzoo</h1>
+       <span> Web Devloper </span>
+       <p> Hi, I'm Taha, a passionate web developer specializing in HTML and CSS. I love creating clean, responsive, and visually appealing websites. My goal is to build seamless and user-friendly web experiences. Always eager to learn and improve, I'm dedicated to mastering web technologies and delivering high-quality designs. </p>
+       
+       
+       
+     </div>
+     
+         
+
+     
+      </nav>
+      </header>
+      <div class="square"></div>
+       <div class="insta">
+      
+                <a href="https://www.instagram.com/u8z4x?igsh=MXY5d25wMzE0cmY5" target="_blank"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                </div>
+               <div class="dis">
+                <a href="http://discordapp.com/users/855790757244043285" target="_blank"> 
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                </div>
+                <div class="wts">
+                <a href="https://wa.me/+212616507496" target="_blank"> 
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                
+                </div>
+                <div class="icon">
+                 <i class="fa-solid fa-user-tie"></i> 
+                  
+                </div>
+                <div class="ico">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="ab">
+                  <i class="fa-solid fa-address-card"></i>
+                </div>
+                <div class="image">
+          <img src="" width="500">
+                  
+                  
+                </div>
+                <div class="skills">
+                  <a> Skills </a>
+                  
+                </div>
+                <div class="morba3">
+                </div>
+                <div class="mor">
+                </div>
+                <div class="mr"></div>
+                <div class="ln">
+                  <a> HTML </a>
+                </div>
+                <div class="lng">
+                  <a> CSS </a>
+                </div>
+                <div class="my">
+                 <a> Contact </a> 
+                </div>
+                <div class="prg">
+                  <a href="https://ninsoo2008.github.io/N-NZOO.project.website/"> Projects </a>
+                </div>
+               <div class="copy">
+                 <a> © Create By N!nzoo</a>
+               </div>
+    </body>
+    </html>
